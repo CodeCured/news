@@ -1,0 +1,50 @@
+# Basic site setup
+remote_theme: JakeSteam/minimaJake@1.0.8
+title: Code Cured The Cat News
+description: The latest announcements and projects from Code Cured The Cat, a digital cat charity.
+accent_colour: "#111b6d"
+
+# Optional native feature customisation (delete to turn off)
+post_end_promo: <i><b>Want to know more about Code Cured? Luckily <a href="https://codecured.org">there's a website for that</a>!</b></i>
+google_analytics: G-QSK3SJ35T5
+replace_read_time_with_word_count: false
+
+# Social / dark mode settings
+minima:
+  skin: auto
+  social_links:
+    - { platform: github, user_url: "https://github.com/CodeCured" }
+    - { platform: email, user_url: "mailto:hello@codecured.org", user_title: "hello@codecured.org" }
+    - { platform: code, user_url: "https://github.com/CodeCured/news", user_title: "CodeCured/news" }
+    - { platform: rss, user_url: "/feed.xml", user_title: "RSS Feed" }
+  #   - { platform: devto,          user_url: "https://dev.to/jekyll" }
+  #   - { platform: dribbble,       user_url: "https://dribbble.com/jekyll" }
+  #   - { platform: facebook,       user_url: "https://www.facebook.com/jekyll" }
+  #   - { platform: flickr,         user_url: "https://www.flickr.com/photos/jekyll" }
+  #   - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=qc6CJjYAAAAJ" }
+  #   - { platform: instagram,      user_url: "https://www.instagram.com/jekyll" }
+  #   - { platform: keybase,        user_url: "https://keybase.io/jekyll" }
+  #   - { platform: microdotblog,   user_url: "https://micro.blog/jekyll" }
+  #   - { platform: pinterest,      user_url: "https://www.pinterest.com/jekyll" }
+  #   - { platform: telegram,       user_url: "https://t.me/jekyll" }
+  #   - { platform: youtube,        user_url: "https://www.youtube.com/jekyll" }
+
+###
+# Below here probably doesn't need changing #
+###
+
+# Site settings
+permalink: /:title/
+show_excerpts: true
+timezone: Europe/London
+
+# Build settings
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Pagination settings
+paginate: 10
+paginate_path: page/:num/
