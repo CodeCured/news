@@ -1,5 +1,5 @@
 # Basic site setup
-remote_theme: JakeSteam/minimaJake@1.0.8
+remote_theme: JakeSteam/minimaJake@1.0.9
 title: Code Cured The Cat News
 description: The latest announcements and projects from Code Cured The Cat, a digital cat charity.
 accent_colour: "#111b6d"
